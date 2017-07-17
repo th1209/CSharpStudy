@@ -11,6 +11,8 @@ C#の各種言語機能や、標準ライブラリに関するサンプルコー
 #### コーディング規約について
 * [C# のコーディング規則 (C# プログラミング ガイド)](https://msdn.microsoft.com/ja-jp/library/ff926074.aspx)
     * MicroSoft公式。定期的に読む。
+* [MSDN XML Documentation Tutorial](https://msdn.microsoft.com/en-us/library/aa288481(v=vs.71).aspx)
+    * C#における、ドキュメント生成が可能なコメントの書き方。
 
 #### 開発環境について
 * [永久保存版 C#のイマドキな開発環境はこれなのですぞ。](http://toach.click/csharp-dev-2015/)
@@ -65,6 +67,10 @@ C#の各種言語機能や、標準ライブラリに関するサンプルコー
 * [デリゲートとラムダ式の書き換え](https://www.ipentec.com/document/document.aspx?page=csharp-rewriting-delegate-and-lambda-expression)
     * 上記の@ITの記事では、仮引数でラムダ式を取る方法が載っていないため、こちらで補うこと。
     * デリゲートを使う方法もあるけど、基本的には`Func<T1, T2, ..., TReturn>`を使う方法が良いだろう。
+
+#### プロパティ
+* [Qiita インスペクターで値も設定したいけど，プロパティを使いたい。めんどくさいのも嫌！](http://qiita.com/RyotaMurohoshi/items/b64b36009ba652b21e2c)
+    * Unityにおいて、プロパティを使いつつも、インスペクタ上でプロパティに値を仕込めるようにする方法。
 
 #### ユニットテスト
 * [CodeZine NUnitの全貌 ～ 基本から、最新バージョンの新機能まで](http://codezine.jp/article/detail/6518)
